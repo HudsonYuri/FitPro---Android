@@ -1,0 +1,17 @@
+{
+  "name": "fitpro",
+  "private": true,
+  "packageManager": "pnpm@12.11.2",
+  "engines": { "node": ">=22.18" },
+  "scripts": {
+    "dev": "turbo run dev",
+    "mobile": "pnpm --filter @fitpro/mobile start",
+    "backend": "pnpm --filter @fitpro/backend dev",
+    "typecheck": "turbo run typecheck",
+    "test": "turbo run test"
+  },
+  "devDependencies": {
+    "turbo": "^2.11.8",
+    "typescript": "catalog:"
+  }
+}

@@ -1,0 +1,15 @@
+node_modules
+.turbo
+.expo
+dist
+android
+ios
+*.apk
+*.aab
+.env
+.env.local
+.cache
+# Configuração local do Android Studio / IntelliJ
+.idea
+# Pacotes compactados (FitPro-app.rar, FitPro-codigo.rar e cópias antigas)
+*.rar

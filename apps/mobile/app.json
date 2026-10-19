@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "FitPro",
+    "slug": "fitpro",
+    "scheme": "fitpro",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "android": {
+      "package": "br.com.fitpro.app",
+      "predictiveBackGestureEnabled": true,
+      "permissions": [
+        "android.permission.VIBRATE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "monochromeImage": "./assets/monochrome-icon.png",
+        "backgroundColor": "#03131A"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "br.com.fitpro.app",
+      "supportsTablet": false,
+      "icon": "./assets/icon.png"
+    },
+    "plugins": [
+      "expo-sqlite",
+      [
+        "expo-notifications",
+        {
+          "color": "#3BEA62",
+          "icon": "./assets/monochrome-icon.png"
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 180,
+          "resizeMode": "contain",
+          "backgroundColor": "#03131A",
+          "dark": {
+            "image": "./assets/splash-icon.png",
+            "backgroundColor": "#03131A"
+          }
+        }
+      ]
+    ],
+    "icon": "./assets/icon.png"
+  }
+}
